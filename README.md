@@ -26,3 +26,8 @@ tanıtılmalıdır.
  - Form elemanları kullanılmalı
  - Kontrol işlemleri javascript ile yapılmalı
  - Gönderilen form bilgileri başka bir sayfada görüntülenmeli
+ ### İlgi Alanlarım
+ - İlgi alanlarım isminde bir sayfada, ilgi alanlarınız çerçevesinde (film, spor vb) internetten bulduğunuz
+ücretsiz bir API servisinden veri alınıp gösterilmelidir.
+
+ 
