@@ -10,6 +10,7 @@
     <meta name="description" content="Alperen Özbulut">
     <meta name="keywords" content="alperen,ozbulut,sakarya,çorum,html,çorumspor,çorumfk">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <style>
         .logo{
             background-image: url(images/logo.jpg);
@@ -23,7 +24,7 @@
     <title>Takımım</title>
   </head>
   <body class="logo">
-    <div id="wrapper">   
+    <div class="wrapper">   
      <header class="container">
          <nav>
              <div class="logo"> </div>
@@ -62,21 +63,78 @@
 
           Aralık 2019'da kulübün adı bir kez daha değişerek Çorum Futbol Kulübü oldu.</p>
       </div>
-      <div class="container2">
-        <a href="http://www.tamyapi.net/proje.asp?id=1090"><h2>Markalaşma ve Yeni Tesisler</h2></a>
-        <img src="images/tesis.jpg" alt="">
+  
+      <div class="box7">
+        <a href="http://www.tamyapi.net/proje.asp?id=1090"><h2>Markalaşma ve Yeni Tesis</h2></a>
+        <img src="images/tesis.jpg" alt="ÇOrumspor tesisleri">
 
-        <p></p>
+        <p>27 Mayıs 2018 tarihinde açılışı yapılan tesislerimiz aslen belediyeye aittir.Başlığa tıklayarak tesisin resimlerine ulaşabilirsiniz.Ayrıca halk üst ligler seviyesinde yapılan bu tesislerle birlikte Çorumspor'un artık 1.lig hasretine son vermesini bekliyor.</p>
       </div>
-    
+      <div class="box8">    
+         <div class="swiper2">
+         <div class="swiper-wrapper">
+        
+          <div class="swiper-slide"><img src="images/stat1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/stat2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/stat3.jpg" alt=""></div>
+        </div>
+      
+        <div class="swiper-pagination"></div>
+      
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <p>Stattan görüntüler</p>
     </div>
-   <footer>
-     <p> Web-tek 2021-2022 || Sakarya Üniversitesi </p>
-   </footer>
+    <div class="box9"></div>
+    </div>
+    <footer>
+      <p >Çorumsporun Sosyal Medya Hesapları</p>
+   
+      <div class="footer-bottom">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-5">
+                      <p ></p>
+                  </div>     
+                  <div class="col-sm-7">
+                     <ul class="social-icon">
+                          <li><a href="https://www.instagram.com/corumfk/"><img src="images/insta.png" alt=""></a></li>
+                          <li><a href="https://twitter.com/corumfk?s=20&t=JHarKXFrieVzqs77c0k0dQ"><img src="images/twitter.png" alt=""></a></li>
+                          <li><a href="https://www.youtube.com/channel/UCpCLMTDS9WDJhLJrJxJ54aw"><img src="images/youtube.png" alt=""></a></li>
+                      </ul>
+                 
+                  </div>
+          </div>
+      </div>
+      </div>
+      <div><p>Web-tek 2021-2022 || Sakarya Üniversitesi </p></div>
+  </footer>
 
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper2', {
+  autoplay:{
+    delay:3000,
+    disableOnInteraction:false,
+  },
+  loop: true,
 
-   
+  
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }, 
+});
+    </script>
+  
   </body>
 </html>
