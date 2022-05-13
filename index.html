@@ -1,11 +1,9 @@
 <!doctype html>
 <html lang="tr">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta name="description" content="Alperen Özbulut">
     <meta name="keywords" content="alperen,ozbulut,sakarya,çorum,html">
@@ -13,54 +11,108 @@
     <title>Alperen Özbulut</title>
   </head>
   <body>
-    <div id="wrapper">   
+    <div  class="row justify-content-md-center"> 
+      <div class="col-sm-4 col-lg-6">
      <header class="container">
-         <nav>
-             <div class="logo"> </div>
+      <nav class="navbar navbar-expand-md navbar-dark ">
+        <div class="container row">
           
-            <div class="menu">
-              <ul>
-
-                <li><a href="index.html" class="active">Anasayfa</a></li>
-                <li><a href="#">Özgeçmiş</a></li>
-                <li><a href="sehrim.html">Şehrim</a></li>
-                <li><a href="#">Takımım</a></li>
-                <li><a href="#">İletişim</a></li>
-            </ul>
-            <a href="#" class="login">login</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+           <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <div class="col-11 container">
+               <ul class="navbar-nav me-8 mb-lg-0">
+                <li class="nav-item me-3">
+                   <a class="nav-link active" aria-current="page" href="index.html">Hakkımda</a>
+                </li>
+                <li class="nav-item me-3">
+                 <a class="nav-link" href="ozgecmis.html">Özgeçmiş</a>
+                </li>
+                <li class="nav-item me-3">
+                 <a class="nav-link" href="sehrim.html">Şehrim</a>
+               </li>
+               <li class="nav-item me-3">
+                  <a class="nav-link " href="takımım.html">Mirasımız</a>
+                </li>
+                 <li class="nav-item me-3">
+                   <a class="nav-link" href="ilgialanlarim.html">İlgi Alanlarım</a>
+                 </li>
+                <li class="nav-item me-3">
+                   <a class="nav-link" href="iletisim.html">İletişim</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="http://localhost/WEB/login.php">login</a>  
+               </li>
+             </ul>   
+              
             </div>
-          </nav>
+           
+          </div>
+        </div>
+        
+      </nav>
         </header>
-   
-    <div class="box">
-        <img src="nft.jpeg" alt="profile" width="200px" height="200px">
-        <h1>RECEP ALPEREN ÖZBULUT</h1>
-        <h5>Sakarya Üniversitesi bilgisayar mühendisliği öğrencisi</h5>
-        <p>Ben Recep Alperen Özbulut,17 Ocak 2002 yılında Çorum’da dünyaya geldim.Dört kişilik bir ailenin en büyük çocuğuyum. Spor yapmayı,kitap okumayı ve seyahate çıkmayı severim.</p>  
-
-     </div>
-     <div class="box2">
-       <img src="TOP.JPG" alt="futboltopu" width="200px" height="200px">
-       <h1>En sevdiğim spor</h1>
-       <h2>Futbol</h2>
-       <p>Birçok sporu yapsam da futbolun yeri benim için hep ayrı olmuştur hem oynamayı hem izlemeyi çok severim.</p>
-       <p>Hatta<a href="https://www.youtube.com/watch?v=GABwPR5uiXU&ab_channel=SPORKOL%C4%B0KK" title="Serdivan halısahadaki röveşatam"> buraya </a>sizin için güzel bir link bırakayım.</p>
-      
-     </div>
+      </div>
     </div>
-   <footer>
-     <p> Web-tek 2021-2022 || Sakarya Üniversitesi </p>
-   </footer>
+     
+    
+        <div class="row flex justify-content-md-center align-items-center">
+          <div class="col-sm-10 col-lg-8">
+            <i><h1>BEN KİMİM</h1></i> 
+            <div class="box">
+               <img src="images/nft.jpeg" alt="profile" >
+              <strong><i><h2>RECEP ALPEREN ÖZBULUT</h2></i></strong>
+               <h5>Sakarya Üniversitesi bilgisayar mühendisliği öğrencisi</h5>
+               <p>Ben Recep Alperen Özbulut,17 Ocak 2002 yılında Çorum’da dünyaya geldim.Dört kişilik bir ailenin en büyük çocuğuyum. Spor yapmayı,film izlemeyi ve seyahate çıkmayı severim.</p>  
+       
+            </div>
+          </div>
+        </div>
+        <div>
+          <i><h1>Hobilerim ve İlgi Alanlarım</h1></i>
+              </div>
+        <div class=" row  flex justify-content-md-center align-items-center justify-content-around">
+        
+    
+        <div class="col-sm-12 col-lg-4 box2 ">
+         <img src="images/seyahat6.jpg" class="text-center me-3 align-items-center" alt="Seyahat"  >
+         <h2>Favori Aktivitem</h2>
+         <h3>Seyahat Etmek</h3>
+         <p>Seyahat etmeyi yeni yerler görüp farklı bakış açıları getirmeyi çok seviyorum.Mümkün olan her fırsatta gezmeye gayret ediyorum.Yakınlarda en son Eskişehir'e gitmiştim.Arkadaşlarımla geçirdiğim 4gün çok keyifliydi.Sizlere de Eskişehir'i gezmenizi tavsiye ederim.</p>
+         <p>Sizinde beğendiğiniz,tavsiye edebileceğiniz yerler varsa <a href="iletisim.html">iletişim</a> kutusundaki mesaj kısmına fikirlerinizi bekliyorum.</p>
+        </div>
+        <div class="col-sm-12 col-lg-4 box2 ">
+        <img src="images/futbol.jpg" class="text-center  me-3 align-items-center" alt="futbol"  >
+        <h2>En sevdiğim spor</h2>
+        <h3>Futbol</h3>
+        <p>Birçok sporu yapsam da futbolun yeri benim için hep ayrı olmuştur hem oynamayı hem izlemeyi çok severim.Hatta çocukken 3yıl kulüpte futbol oynamıştım.11 yaş katagorisinde birinci olmuştuk.Bunlara ek olarak okul takımında da yer alıp güzel başarılara imza atmıştık.</p>
+        <p>Hatta<a href="https://www.youtube.com/watch?v=GABwPR5uiXU&ab_channel=SPORKOL%C4%B0KK"  target="_blank" title="Serdivan halısahadaki röveşatam"> buraya </a>sizin için yakın zamanda Serdivan halısahada çekmiş oldğum güzel bir şutun linkini bırakayım.</p>
+        </div>
+        <div class="col-sm-12 col-lg-4 box2 ">
+          <img src="images/ntflx.jpg"  class="text-center me-3 align-items-center"  alt="netflix logo" >
+          <h2>Filmler</h2>
+          <h3>Aksiyon</h3>
+          <p>Film denilince benim için her şeyden önce aksiyon gelir.Özellikle sevdiğim oyuncularında aksiyon filmlerinde yer alması beni buna daha ilgili hale getiriyor diyebilirim.</p>
+          <p>Sizlere birkaç tavsiye vermem gerekirse Görevimi Tehlike,John Wick,Oceans,21,İtalyan İşi gibi filmleri izlemediyseniz hemen başlamalısınız.Sonra teşekkür edersiniz :)</p>
+        </div>
+        
+     </div>  
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+     <div  class="row justify-content-md-center footer " > 
+      <div class="col-sm-12 col-lg-6">
+        <footer class="text-center  "> 
+          <span>Web-tek 2021-2022 || Sakarya Üniversitesi </span>   
+            </footer>
+       </div>
+     </div>
+     
+    
+  
+ 
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+    
   </body>
 </html>
