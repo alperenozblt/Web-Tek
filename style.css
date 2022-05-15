@@ -1,279 +1,167 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    
 }
 body{
-    background-image: url(images/binary.jpg);
-    background-size:cover ;
+    background-color:#34a0a4;
+    
+}
+.footer{
+    margin-top: 2%;
 }
 .container {
-    width: 80%;
+    margin-top: 2%;
+    width: 70%;  
     margin: auto;
+    font-weight: 900;
+    font-style: italic;
 
-}
-header{
-    height: 100px;
-    border-bottom: 2px solid rgb(255,255 ,255,0.06);
 }
 header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+        
 }
+
 nav ul{
     list-style: none;
     display: flex;
     column-gap: 30px;
+ 
 }
 nav ul li a{
     color: white;
     text-decoration: none;
 }
 nav ul li a:hover{
-    color: rgb(247, 96, 9);
+    color: #edddd4;
     transition: color .25s ease;
     font-size: large;
 }
-nav .menu{
+nav {
     display: flex;
     float: right;
-    align-items: center;
-    column-gap: 48px;
+    
+    column-gap: 24px;
 }
-nav .menu .login{
-text-decoration: none;
-background-color: rgb(255,255,255,0.08);
-border-radius: 56px;
-padding: 12px 24px;
-color: aquamarine;
-transition: all .25s ease;
+p{
+    text-align: center;
 }
-nav .menu .login:hover{
-    background-color: rgb(250, 137, 8);
-
-}
-
 .box{
-    width: 26%;
-    height: 32%;
-    background-color: rgb(231, 84, 25);
+    background-color: #edddd4;
     border-radius: 5%;
-    padding: 3%;
+    padding: 2%;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
-
+    margin-top: 2.25%;
+    
 }
 .box img{
-    border-radius: 20%;
-    margin-top: 5%;
-    padding: auto;
+    width: 100%;
+    height: 300px;
+    border-radius: 12%;
+    margin: auto;
+    margin-top: 2.5%;
+    margin-bottom: 1%
 }
 .box2{
-    width: 26%;
-    height: 32%;
-    background-color: rgb(231, 84, 25);
+    width: 500px;
+    height: 700px;
+    background-color: #edddd4;
     border-radius: 5%;
-    padding: 3%;
+    padding: 2%;
     text-align: center;
     margin: auto;
-    margin-bottom: 2%;
-    margin-top: 5%;
+    margin-top: 2%;
 
+   
 }
 .box2 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 12%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%
+    
+}
+.box3{
+    width: 600px;
+    height: 400px;
+    background-color: #edddd4;
     border-radius: 5%;
-    width: 80%;
-    margin-top: 5%;
-    padding: auto;
+    text-align: center;
+    margin: 1%;
+    margin-top: 2%;
+    font-size: large;
+    font-style: italic;
+    padding: 2%;
+
+
+}
+.box3 img{
+    width: 88%;
+    height: 340px;
+    border-radius: 12%;
 }
 
 
 h1{
     margin-top: 1%;
     text-align: center;
-    color: red;
+    color: rgb(17, 16, 16);
     font-size: 48px;
 }
 .sehrim{
-    background-color: rgb(231, 84, 25);
+    background-color: #edddd4;
     opacity: 0.9;
-    color: white;
+    color: rgb(223, 17, 17);
     text-align: center;
     margin: auto;
     opacity: 0.9;
 }
-.box3{
-    width: 28%;
-    height: 36%;
-    background-color: rgb(231, 84, 25);
-    border-radius: 5%;
-    padding: 1.5%;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 2%;
-    margin-top: 3%;
-    float: left;
-    margin-left: 4%;
-    opacity: 0.9;
-}
-.box3 img{
-    border-radius: 5%;
-    width: 80%;
-    margin-top: 5%;
-    padding: auto;
-}
- .swiper{
+
+.swiper{
     position: relative;
-    width: 34%; 
-    height: 24%;
+    width:  84%; 
+    height: 430px;
     margin: auto;
-    margin-bottom: 1.5%;
-    margin-top: 800px;
     margin-left: 50%;
+    margin-top: 3%;
 }
 .swiper-slide img{
     width: 100%;
     height: 400px;
 }
 
-.swiper .swiper-pagination{
-    background-color:red;
-}
+
 .swiper .swiper-pagination:hover{
     font-size: x-large;
 }
-.box4{
-    background-color: black;
+.tkm{
     opacity: 0.9;
-    width: 28%;
-    height: 34%;
-    padding: 1.5%;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 2%;
-    margin-top: 3%;
-    float: left;
-    margin-left: 4%;
-    border-radius: 10%;
-}
-.box4 video{
-    height: 28%;
-    width: 100%;
-}
-.box4 p{
-    color: red;
-}
-.box4 h2{
-    color: red;
-}
-.box5{
-    background-color: black;
-    opacity: 0.9;
-    width: 28%;
-    height: auto;
-    padding: 2%;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 2%;
-    margin-top: 3%;
-    float: right;
-    margin-right: 4%;
-    border-radius: 10%; 
-}
-.box5 img{
+    background-color: #edddd4;
     border-radius: 5%;
-    width: 80%;
-    margin-top: 5%;
-    padding: auto;
-}
-.box5 p{
-    color: red;
-}
-.box5 h2{
-    color: red;
-}
-.box5 h3{
-    color: red;
-}
-.box6{
-    background-color: black;
-    opacity: 0.9;
-    width: 28%;
-    height: 34%;
-    padding: 2%;
     text-align: center;
-    margin: auto;
-    margin-top: 660px;
-    border-radius: 10%; 
+    margin: 1%;
+    margin-top: 2%;
+    font-size: large;
+    font-style: italic;
+    padding: 2%;}
+
+
+.box9{
+    background-color:#edddd4;
+
+    
 }
-.box6 iframe{
-    border-radius: 5%;
+.box9 img{
     width: 100%;
-    height: 280px;
-    padding: 5%;
-
-}
-.box6 p{
-    color: red;
-}
-.box6 h2{
-    color: red;
-}
-.box7{
-    position: relative;
-    background-color: black;
-    opacity: 0.9;
-    width: 28%;
-    text-align: center;
-    border-radius: 10%; 
-    padding:1.5%;
-    float: left;
-    margin-left: 4%;
-    margin-bottom: 15px;
-
-}
-
-.box7 img{
-    border-radius: 5%;
-    width: 100%;
-    margin-top: 5%;
-    padding: auto;
-}
-.box7 h2{
-    text-align: center;
-}
-.box7 p{
-    color: red;
-    text-align: center;
-}
-.box8{
-    position: relative;
-    background-color: black;
-    opacity: 0.9;
-    width: 28%;
-    text-align: center;
-    border-radius: 10%; 
-    padding:1.5%;
-    float:right;
-    margin-right: 4%;
-    margin-bottom: 20px
-}
-
-.box8 img{
-    border-radius: 5%;
-    width: 100%;
-    margin-top: 5%;
-    padding: auto;
-}
-.box8 h2{
-    text-align: center;
-}
-.box8 p{
-    color: red;
-    text-align: center;
+    height: 320px;
+    margin-top: 8%;
+    border-radius: 2%;
 }
 .swiper2{
     position: relative;
@@ -284,8 +172,7 @@ h1{
 }
 .swiper-slide img{
     width: 100%;
-    height: 400px;
-}
+    height: 560px;}
 
 .swiper2 .swiper-pagination{
     background-color:red;
@@ -293,29 +180,130 @@ h1{
 .swiper2 .swiper-pagination:hover{
     font-size: x-large;
 }
-footer{
-    background-image: none;
-    background-color: black;
-    height: 18%;
-    color: red;
-    margin: auto;
-    margin-top: 1.5%;
-    text-align: center;
-    padding: 1%;
-    bottom: 0%;
- }
- footer .wrapper{                
-    min-height: calc(100% - 18%);            
+.social-icon {
+    padding: 0;
+    margin-bottom: 0px;
+    float: right;
 }
-.container2{
-    position: relative;
-    background-color: black;
-    opacity: 0.9;
-    width: 28%;
+
+.social-icon li {
+    list-style: none;
+    display: inline-block;
+}
+.social-icon li img{
+    font-size: 24px;
+    color: #ee0f0f;
+    border: solid 2px #080808;
+    height: 36px;
+    width: 36px;
     text-align: center;
+    vertical-align: middle;
+    line-height: 36px;
+    margin-right: 18px;
+    transition: 1s;
+    background: rgb(180, 6, 6);
+}
+.social-icon li img:hover {
+    border: solid 2px #070706;
+    color: #ffffff;
+    background: #020202;
+}
+.footer{
+    background-color: #0f868a;
+}
+.copyright {
+    font-size: 18px;
+}
+.wrapper{
+    position: relative;
+    min-height: 600px;  
+    border-style: none;
     margin: auto;
-    margin-bottom: 10px;
-    border-radius: 10%; 
-    padding:1.5%;
-    float: left;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.bg{
+    background-color:#edddd4;
+    font-size:16px;
+    font-weight: 700;
+    margin-top: 1.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+}
+.bg h3{
+    text-align: center;
+    font-weight: 900;
+    font-size:xx-large;
+    margin-top: 2%;
+}
+.bg2{
+    float: right;
+    padding-right: 10%;
+    height: 90%;
+}
+.sınıf ul{
+    list-style: none;
+    font-weight: 900;
+    text-align: center;
+    color:black;
+    font-size: larger;
+}
+.social-icon2 ul{
+    margin-left: 30%;
+    display: flex;
+    column-gap: 40px;
+    vertical-align: middle;
+}
+.social-icon2 ul li{
+    list-style: none;
+}
+.social-icon2 ul li a{
+    color: rgb(147, 212, 255);
+    text-decoration: none;
+}
+.social-icon2 ul li a:hover{
+    color: rgb(12, 11, 10);
+    transition: color .25s ease;
+    font-size: x-large;
+}
+
+.dosya {
+    width: 90px;
+    height: 60px;
+    background: url('https://cdn1.iconfinder.com/data/icons/Aire%20PNGs/512/Folders/Upload%20Folder.png');
+  background-size: 90px 60px;
+    overflow: hidden;
+}
+.dosya input {
+        width: 90px;
+        height: 60px;
+        opacity: 0;
+        cursor: pointer;
+}
+.form-group{
+  margin-top: 1.5%;
+}
+.container label{
+    color: #000000;
+    font-weight: 700;
+    font-size: 24px;
+}
+.container i h1{
+    color: #000000;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.btn{
+    background-color: #04633b;
+}
+i h1{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.ifrm{
+    margin-left: 30%;
+    background: #374e91;
 }
